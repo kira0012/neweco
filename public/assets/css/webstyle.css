@@ -1,0 +1,2748 @@
+body{
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  background: #333333;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+  position: absolute;
+
+    width: 100%;
+    padding: 0;
+}
+
+
+/*================= LANDING IMAGE =====================*/
+#landingPage{
+  margin-top: 100px;
+}
+
+.landingPage img{
+  max-width: 100%;
+  margin-top: 0px;
+border-bottom: 15px solid rgba(255, 250, 230, .6);
+border-radius: 0px 0px 40px 40px;
+background-color:#333333;
+}
+
+/*================= NAVIGATION =====================*/
+
+.navbarEcon{
+  background-color: #222222 !important;
+  border-bottom: 10px solid rgba(255, 250, 230, .6);
+border-radius: 0px 0px 40px 40px;
+
+/*height: 135px;*/
+    /*position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;*/
+
+   /* position: fixed;
+    
+    top: 0;
+     right: 0;
+    left: 0;*/
+    
+}
+
+.navbarEcon:hover{
+/*height: 135px;*/
+    /*position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;*/
+
+   /* position: fixed;
+    
+    top: 0;
+     right: 0;
+    left: 0;*/
+    
+}
+
+#mainMenu ul li a{
+  color:#fff;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+#mainMenu ul li a:hover{
+  color: #e6b800;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .navbarEcon {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .navbarEcon {
+    width: 100%;
+  }
+}
+
+/*=================== ABOUT US =========================================*/
+
+#title1{
+  font-weight: bold;
+  font-size: 80px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
+
+#title2{
+  font-size: 40px;
+  padding: 10px;
+ font-weight: bold;
+ 
+}
+
+#aboutus{
+ font-family: 'Merriweather', serif;
+ font-size: 12px;
+ padding: 100px 0 130px;
+color:#fff;
+
+background-color:#333333;
+
+
+}
+
+.aboutus h2{
+ text-align: center;
+}
+#aboutusTitle{
+text-align: center;
+}
+
+.aboutus h3{
+  font-family: 'Finger Paint', cursive;
+}
+
+#aboutusrow{
+  border-top: 15px double #fff;
+  border-bottom: 15px double #fff;
+  padding: 30px 30px 60px 30px;
+}
+
+#titleColorAboutUs{
+  color: #e6b800;
+}
+
+
+
+/*========================= ORDER FORM ====================================*/
+
+#request{
+  font-weight: bold;
+   font-family: 'Finger Paint', cursive;
+   font-size: 40px;
+   color:#fff;
+
+}
+
+.requestForm{
+  /*font-family: 'Finger Paint', cursive;*/
+}
+
+.requestForm1{
+  /*font-family: 'Finger Paint', cursive;*/
+}
+
+#order{
+  padding-top:20px;
+   
+}
+#order input {
+  border-radius: 0px;
+}
+
+.quotations input{
+  margin-bottom: 10px;
+}
+
+
+#order .card{
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+#offer{
+  font-size: 12px;
+  padding: 15px 0 0 0;
+  color:#fff;
+}
+
+#quatation{
+  padding: 150px 0 100px 0 ;
+  margin-top: 10px;
+  /*background:  #fff2cc;*/
+  background: #333;
+
+border-top: 40px solid rgba(255, 250, 230, .6);
+border-bottom: 40px solid rgba(255, 250, 230, .6);
+border-radius: 40px 0 40px 0;
+border-left: none;
+}
+
+#quatation small{
+  /*color: red;*/
+  color: #ffffb3;
+}
+.quats {
+  border: none;
+  background-color: #d1ecf1;
+  border-bottom: 2px solid red;
+  border-radius: 0px;
+}
+
+textarea {	
+
+  max-width: 100%;
+  }
+
+#orderFormBorderRow{
+  /*border: 10px double #4d2600;*/
+  border: 10px double rgba(255, 250, 230, .6);
+  border-radius: 40px 0px 0px 40px;
+  margin: -10px;
+  padding: 30px 30px 0px 30px;
+}
+
+#orderFormBorderContainer{
+/*border-right: 25px double #4d2600;*/
+border-right: 20px solid rgba(255, 250, 230, .6);
+border-radius: 0px 0px 0px 0px;
+margin-top: -50px;
+
+/*animation-duration: 3s;
+  animation-delay: 2s;*/
+  animation-iteration-count: infinite;
+
+}
+
+
+#orderFormBorderContainer:hover{
+  animation-play-state: paused;
+}
+
+
+
+#titleColorOrderForm{
+  color: #ffd966;
+}
+
+#divisionForQuote{
+border-bottom: 1px dashed #333333;
+padding: 0 0 20px 0;
+}
+
+#btnSubmitOrderForm{
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  color: #333; 
+  background-color: #e6b800;
+  border: 2px solid #e6b800;
+  font-weight: bold;
+}
+
+#btnSubmitOrderForm:hover{
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: #fff;
+  font-weight: bolder;
+}
+
+/*========================= OrderLandingPage ===================================*/
+
+.orderlandingpage{
+  margin: 200px 250px;
+  text-align: center;
+  padding: 20px;
+color: #fff;
+
+border-top: 40px solid rgba(44, 170, 226, .6);
+border-bottom: 40px solid rgba(44, 170, 226, .6);
+border-left: 1px solid rgba(44, 170, 226, .6);
+border-right: 1px solid rgba(44, 170, 226, .6);
+border-radius: 40px 40px 40px 40px;
+}
+
+.orderlandingpage h1{
+  font-family: 'Finger Paint', cursive;
+}
+
+#containerOrderLandingPage{
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.loader {
+   margin: 20px auto;
+  /*border: 16px solid #f3f3f3;*/
+  border-radius: 50%;
+  border-top: 20px solid #ec0c8b;
+  border-right: 20px solid #fcee24;
+  border-bottom: 20px solid #2aabe2;
+  border-left: 20px solid #fff;
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/*========================= SERVICES ===================================*/
+.services{
+  padding: 130px 0 30px;
+  text-align: center;
+/*  margin-top: -80px;
+*/  /*background: #dfe6e9;*/
+background-image: url('../images/serviceBackground.jpg');
+
+border-top: 40px solid rgba(44, 170, 226, .6);
+border-bottom: 40px solid rgba(44, 170, 226, .6);
+border-radius: 0px 0px 0px 0px;
+
+}
+
+.services .col-md-2{
+  /*box-shadow: 5px 5px 10px grey;*/
+  margin-left: 10px;
+  padding-top: 30px;
+  margin-bottom: 2px;
+  background-color: #2c2c54;
+  border-radius: 10px;
+}
+
+.services .col-md-2:hover{
+transform: scale(1.1);
+box-shadow: 0px 0px 10px 5px rgba(44, 170, 226, .6);
+font-family: 'Finger Paint', cursive;
+color: #e6e600;
+font-weight: bolder;
+}
+
+
+.services h4{
+  font-family: 'Merriweather', serif;
+  margin-top: 10px;
+  color: #ffffb3;
+}
+
+.services h3,
+.services h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    font-family: 'Finger Paint', cursive;
+   /*font-family: 'Merriweather', serif;*/
+     color: #fff;
+     font-weight: bolder;
+
+/*     color: #212529;
+*/
+
+border-top: 9px double #fff ;
+border-bottom: 9px double #fff;
+
+
+background-color: rgba(44, 44, 84, .6);
+
+
+}
+
+#paragraphServices{
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Merriweather', serif;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.services p {
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Merriweather', serif;
+  padding-top: 5px;
+  text-align: center;
+
+}
+
+.services i{
+   height: 80px;
+   width: 80px;
+   font-size: 30px;
+   padding: 25px;
+   border-radius: 50%;
+   background-color: #0078aa;
+   color: #fff;
+}
+
+.services i:hover{
+  transform: scale(1.1);
+box-shadow: 0px 0px 10px 5px rgba(44, 170, 226, .6);
+
+}
+
+#titleColorServices{
+  color: #e6e600;
+}
+
+
+/*======================= FB MESSENGER ==============================*/
+#fbmessenger {
+  
+  position: fixed;
+  bottom: 0px;
+  right: 75px;
+  height: 45px;
+  z-index: 90;
+  border: none;
+  outline: none;
+  background-color: #4080ff;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-top-left-radius: .7em;
+  border-top-right-radius: .7em;
+  font-size: 15px;
+}
+#fbmessenger:hover{
+   background-color: #3b5998; 
+}
+#fbmessenger-mobile {
+    display: none;
+}
+
+}
+
+/*=================== ABOUT US ===============================*/
+#aboutUs{
+  margin-bottom: 10px;
+}
+
+/*========================= PRODUCT ===================================*/
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+width: 50px;
+/*height: 50px;*/
+}
+
+.carousel-inner{
+  /*padding: 0 60px;*/
+  padding: 0 20px;
+}
+
+.product{
+  padding: 70px 80px;
+  /*background: rgba(254, 231, 244, .10);*/
+  background: rgba(247, 110, 188, .10);
+  margin: 60px 0px;
+
+  /*border-top: 40px solid rgba(51, 204, 51, .6);*/
+  border-top: 80px solid rgba(236, 12, 140, .7);
+  /*border-bottom: 40px solid rgba(51, 204, 51, .6);*/
+  border-bottom: 20px double rgba(236, 12, 140, .7);
+  /*border-top: 40px solid #4CAF50;*/
+  border-radius: 200px 0px 200px 0px;
+}
+
+
+
+.product h2{
+  padding: 10px;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: 'Finger Paint', cursive;
+     color: #fff;
+     font-weight: bolder;
+     font-size: 70px;
+
+/*border-left: 40px double rgba(236, 12, 140, .5);
+border-right: 50px solid rgba(236, 12, 140, .5);
+
+border-radius: 0px 250px 0px 0px;*/
+
+}
+
+#productContainer{
+  
+}
+
+#productRowContainer{
+/*padding: 40px 0px;
+  
+border-top: 10px double rgba(255, 250, 230, .6);
+border-right: 10px double rgba(255, 250, 230, .6);
+border-left: 10px double rgba(255, 250, 230, .6);
+border-bottom: 10px double rgba(255, 250, 230, .6);
+
+border-radius: 40px 0px 40px 0px;*/
+  
+}
+
+#productRowContainer .carousel-inner .row div {
+  padding: 5px;
+}
+
+#titleService{
+  color: #000;
+}
+
+#titleColorProduct{
+  /*color: rgba(230, 184, 0, 4);*/
+  color: rgba(71, 57, 65);
+  background-color: rgba(252, 207, 233, .7);
+  padding: 10px 20px;
+
+  border-left: 18px dotted rgba(170, 9, 100, .8);
+}
+
+#titleColorOffered{
+  /*color: rgba(255, 250, 230, .8);*/
+  color: rgba(252, 207, 233, .7);
+}
+
+.product .card-body{
+  padding-bottom: 0px;
+  padding-top: 10px;
+}
+.product a {
+  font-size: 10px;
+  font-family: 'Finger Paint', cursive;
+  /*color: rgba(252, 207, 233, .7);*/
+  color: rgba(252, 207, 233);
+  text-decoration: none;
+  text-align: center;
+
+}
+
+#titleService{
+  text-align: center;
+
+}
+
+.inner {
+  overflow: hidden;
+  /*background-color: rgba(236, 12, 140, .6);*/
+  background-color: #333;
+  padding: 5px;
+  /*border: 2px solid rgba(252, 207, 233);*/
+  border: 2px solid rgba(236, 12, 140, .7);
+}
+
+.inner:hover{
+  border: none;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px rgba(236, 12, 140, .7);
+}
+
+.inner img {
+  transition: all 0.5s ease;
+  max-width: 100%;
+}
+
+.inner:hover img {
+  transform: scale(1.1);
+}
+
+.product .card-title:hover, .inner:hover a{
+  color: #fff;
+  font-size: 14px;
+  /*padding: 5px 0 0;*/
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+/*====================== OUR TEAM ===================================*/
+/*.team img{
+  max-width: 100%;
+   border-radius: 50%;
+   height: 150px;
+   margin-top: 10px;
+}
+
+.team img:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px rgba(251, 238, 35, .6);
+}*/
+
+.col-lg-3:hover, .col-md-3:hover{
+  transform: scale(1.1);
+  /*box-shadow: 0px 0px 10px 5px rgba(251, 238, 35, .6);*/
+  border-image: 0px 0px 10px 5px rgba(251, 238, 35, .6);
+}
+
+.team{
+  /*padding: 40px 10px 40px 60px;*/
+
+  padding: 85px 0 60px;
+  /*margin: 0 0 10px 80px;*/
+  text-align: center;
+  margin: 0 auto;
+
+
+  /*border-top: 100px solid rgba(255, 255, 179, .6);
+  border-left: 1px solid rgba(255, 250, 230, .6);
+  border-bottom: 20px solid rgba(255, 250, 230, .6);*/
+  border-top: 50px solid rgba(251, 238, 35, .6);
+ /* border-left: 1px solid rgba(251, 238, 35, .6);*/
+  border-bottom: 20px solid rgba(251, 238, 35, .6);
+  /*border-radius: 200px 0px 0 200px;rgba(44, 170, 226, .6);*/
+  background-color: rgba(255, 255, 179, .3);
+
+}
+
+.team .container{
+  /*padding: 0 0 10px;
+      border: 10px double rgba(255, 250, 230, .6);*/
+      /*border-radius: 80px 0 0 80px;*/
+
+}
+
+.team #smallTeam {
+  display: none;
+   text-align: center;
+
+   margin: 40px 0;
+}
+
+.team #smallTeam img {
+  border-radius: 50%;
+  margin-top: 10px;
+
+  max-width: 90%;
+}
+
+#readmoreOurTeam {
+ /* display: none;*/
+}
+
+#readmoreButtonOurTeam {
+  background-color: transparent;
+  border: 0;
+
+  color: #fff;
+  font-size: 60px;
+}
+
+.team #treeTeam {
+  margin: 15px 0 0;
+  padding: 0 0 10px;
+}
+
+#readmoreOurTeam {
+  padding: 0 15px;
+}
+
+#teamCEO img {
+  border: 5px solid #333;
+
+  box-shadow: 0px 0px 10px 5px rgba(51, 51, 51, .6);
+}
+
+#teamExecutiveAssistant img {
+  border: 5px solid #fff;
+
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, .6);
+}
+
+#teamMarketing img {
+  border: 5px solid #ec0c8f;
+
+  box-shadow: 0px 0px 10px 5px rgba(236, 12, 143, .6);
+}
+
+#teamSecondThirdRow img {
+  border: 5px solid #fbee23;
+
+  box-shadow: 0px 0px 10px 5px rgba(251, 238, 35, .6);
+}
+
+#teamAccountant img {
+  border: 5px solid #2caae2;
+
+  box-shadow: 0px 0px 10px 5px rgba(44, 170, 226, .6);
+}
+
+#titleColorMeet{
+  color: rgba(253, 246, 155);
+}
+
+#borderSpan{
+border: 10px double rgba(255, 250, 230, .6);
+}
+
+.team b,
+.team h2,
+.team h4 {
+  margin: 10px 0 10px;
+  font-weight: bold;
+  /*color: #e6e600;*/
+  color: #ffffb3;
+}
+
+.team h2{
+  /*margin: 50px 0 20px;*/
+
+  margin: 0;
+  padding: 0;
+
+  font-weight: bolder;
+  font-family: 'Finger Paint', cursive;
+  font-size: 40px;
+  color:#fff;
+
+  
+}
+
+.team h4{
+  margin-bottom: 0px;
+  color: #ffffe6;
+}
+
+.team p {
+  color: #fff;
+  font-family: 'Finger Paint', cursive;
+}
+
+.team i {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 50%;
+  background-color: #74b9ff;
+  color: #fff;
+
+}
+.team i:hover{
+  background-color: #709963; 
+}
+
+ol.organizational-chart,
+ol.organizational-chart ol,
+ol.organizational-chart li,
+ol.organizational-chart li > div {
+    position: relative;
+}
+
+ol.organizational-chart,
+ol.organizational-chart ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol.organizational-chart {
+    text-align: center;
+    margin: 0 100px;
+}
+
+ol.organizational-chart ol {
+    padding-top: 1em;
+}
+
+ol.organizational-chart ol:before,
+ol.organizational-chart ol:after,
+ol.organizational-chart li:before,
+ol.organizational-chart li:after,
+ol.organizational-chart > li > div:before,
+ol.organizational-chart > li > div:after {
+    background-color: #b7a6aa;
+    content: '';
+    position: absolute;
+}
+
+ol.organizational-chart ol > li {
+    padding: 1em 0 0 1em;
+}
+
+ol.organizational-chart > li ol #olLine:before {
+    height: 1em;
+    left: 50%;
+    top: 0;
+    width: 3px;
+}
+
+ol.organizational-chart > li ol #olLine:after {
+    height: 3px;
+    left: 3px;
+    top: 1em;
+    width: 50%;
+}
+
+ol.organizational-chart > li ol > li:not(:last-of-type):before {
+    height: 3px;
+    left: 0;
+    top: 2em;
+    width: 1em;
+}
+
+ol.organizational-chart > li ol > li:not(:last-of-type):after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 3px;
+}
+
+ol.organizational-chart > li ol > li #ilLine:last-of-type:before {
+    height: 3px;
+    left: 0;
+    top: 2em;
+    width: 1em;
+}
+
+ol.organizational-chart > li ol > li #ilLine:last-of-type:after {
+    height: 2em;
+    left: 0;
+    top: 0;
+    width: 3px;
+}
+
+/*========== Div Radius ==========*/
+  
+ol.organizational-chart li > div {
+    background-color: #fff;
+    /*border-radius: 3px;*/
+    min-height: 2em;
+    padding: 0.5em;
+}
+
+/*** PRIMARY ***/
+ol.organizational-chart > li > div {
+    background-color: rgba(255, 255, 255);
+    margin-right: 1em;
+
+    width: 20%;
+    left: 40%;
+
+    border-radius: 10px 10px 10px 10px;
+    border-top: 10px solid rgba(45, 170, 226, .8);
+    border-bottom: 10px solid rgba(45, 170, 226, .8);
+    border-left: 2px solid rgba(45, 170, 226, .8);
+    border-right: 2px solid rgba(45, 170, 226, .8);
+}
+
+
+ol.organizational-chart > li > div #divLine:before {
+    bottom: 2em;
+    height: 3px;
+    right: -1em;
+    width: 1em;
+}
+
+ol.organizational-chart > li > div:first-of-type:after {
+    bottom: -40px;
+    height: 2em;
+    width: 3px;
+}
+
+ol.organizational-chart > li > div #divLine:first-of-type:after {
+    bottom: 0;
+    height: 2em;
+    right: -1em;
+    width: 3px;
+}
+
+ol.organizational-chart > li > div + div {
+    margin-top: 1em;
+}
+
+ol.organizational-chart > li > div + div:after {
+    height: calc(100% + 1em);
+    right: -1em;
+    top: -1em;
+    width: 3px;
+}
+
+
+/*.team img{
+  max-width: 100%;
+   border-radius: 50%;
+   height: 150px;
+   margin-top: 10px;
+}
+
+.team img:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px rgba(251, 238, 35, .6);
+}*/
+
+
+
+/*========== Image Hover Show ==========*/
+/*ol.organizational-chart li > div:hover #imageHideJs{
+  display: inline-block;
+}*/
+
+
+
+/*ol.organizational-chart li > div > img:hover{
+  transform: scale(2.45);
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+
+  border-left: 3px solid rgba(45, 170, 226);
+  border-right: 3px solid rgba(45, 170, 226);
+  border-top: 3px solid rgba(45, 170, 226);
+  border-bottom: 3px solid rgba(45, 170, 226);
+
+  width: 100%;
+  box-shadow: 0px 0px 10px 5px rgba(45, 170, 226, .8);
+}*/
+
+/*** SECONDARY ***/
+ol.organizational-chart > li > ol:before {
+    left: inherit;
+    right: 0;
+}
+
+ol.organizational-chart > li > ol #olLine:after {
+    left: 0;
+    width: 100%;
+}
+
+ol.organizational-chart > li > ol > li > div {
+    background-color: rgba(255, 255, 255);
+    margin-right: 1em;
+
+    width: 20%;
+    left: 39%;
+
+    border-radius: 10px 10px 10px 10px;
+    border-top: 10px solid rgba(45, 170, 226, .8);
+    border-bottom: 10px solid rgba(45, 170, 226, .8);
+    border-left: 2px solid rgba(45, 170, 226, .8);
+    border-right: 2px solid rgba(45, 170, 226, .8);
+
+}
+
+/*========== Image Hover Show ==========*/
+/*ol.organizational-chart > li > ol > li > div:hover #imageHideJs{
+  display: inline-block;
+}*/
+
+/*** TERTIARY ***/
+ol.organizational-chart > li > ol > li > ol > li > div {
+    background-color: #fd6470;
+    width: 30%;
+
+    background-color: rgba(255, 255, 255);
+    margin-right: 1em;
+
+    width: 20%;
+
+    border-radius: 10px 10px 10px 10px;
+    border-top: 10px solid rgba(45, 170, 226, .8);
+    border-bottom: 10px solid rgba(45, 170, 226, .8);
+    border-left: 2px solid rgba(45, 170, 226, .8);
+    border-right: 2px solid rgba(45, 170, 226, .8);
+}
+
+/*** QUATERNARY ***/
+ol.organizational-chart > li > ol > li > ol > li > ol > li > div {
+    background-color: #fd6470;
+
+    background-color: rgba(255, 255, 255);
+    margin-right: 1em;
+
+    width: 20%;
+    left: 20%;
+
+    border-radius: 10px 10px 10px 10px;
+    border-top: 10px solid rgba(45, 170, 226, .8);
+    border-bottom: 10px solid rgba(45, 170, 226, .8);
+    border-left: 2px solid rgba(45, 170, 226, .8);
+    border-right: 2px solid rgba(45, 170, 226, .8);
+}
+
+/*** QUINARY ***/
+ol.organizational-chart > li > ol > li > ol > li > ol > li > ol > li > div {
+    background-color: #fd6470;
+
+    background-color: rgba(255, 255, 255);
+    margin-right: 1em;
+
+    width: 20%;
+    left: 40%;
+
+    border-radius: 10px 10px 10px 10px;
+    border-top: 10px solid rgba(45, 170, 226, .8);
+    border-bottom: 10px solid rgba(45, 170, 226, .8);
+    border-left: 2px solid rgba(45, 170, 226, .8);
+    border-right: 2px solid rgba(45, 170, 226, .8);
+}
+
+
+/*========== New ==========*/
+
+.tree{
+  overflow: hidden;
+  display: inline-block;
+}
+.tree * {margin: 0; padding: 0;}
+
+.tree ul {
+    padding-top: 20px; position: relative;
+  
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+.tree li {
+  float: left; text-align: center;
+  list-style-type: none;
+  position: relative;
+  /*padding: 20px 5px 0 5px;*/
+  padding: 20px 3px 0;
+  
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+  content: '';
+  position: absolute; top: 0; right: 50%;
+  border-top: 1px solid #ccc;
+  width: 50%; height: 20px;
+}
+.tree li::after{
+  right: auto; left: 50%;
+  border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without 
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+  display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and 
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+  border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+  border-right: 1px solid #ccc;
+  border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+  border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul::before{
+  content: '';
+  position: absolute; top: 0; left: 50%;
+  border-left: 1px solid #ccc;
+  width: 0; height: 20px;
+}
+
+.tree li a{
+  border: 1px solid #7d7503;
+  padding: 5px 5px;
+  text-decoration: none;
+  color: #7d7503;
+  background-color: #fff;
+  font-family: arial, verdana, tahoma;
+  font-size: 10px;
+  display: inline-block;
+  font-weight: bolder;
+  border-radius: 5px;
+
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+  background-color: rgba(253, 246, 155); color: #333; border: 1px solid #4b4602;
+  box-shadow: 0px 0px 10px 5px rgba(251, 238, 35, .6);
+}
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after, 
+.tree li a:hover+ul li::before, 
+.tree li a:hover+ul::before, 
+.tree li a:hover+ul ul::before{
+  /*border-color:  #94a0b4;*/
+  border-color: rgba(253, 246, 155);
+}
+
+#treeImageHide{
+  /*transform: scale(1.1);
+  margin-bottom: 20px;
+
+
+  border-left: 3px solid rgba(45, 170, 226);
+  border-right: 3px solid rgba(45, 170, 226);
+  border-top: 3px solid rgba(45, 170, 226);
+  border-bottom: 3px solid rgba(45, 170, 226);
+  width: 100%;
+  box-shadow: 0px 0px 10px 5px rgba(45, 170, 226, .8);*/
+  /*width: 100%;*/
+}
+
+#treeDivHide{
+  display: none;
+}
+
+/*.tree ul li a:hover{
+  font-size: 0;
+}
+.tree ul li a:hover:before{
+  content: 'Hold to View';
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: bolder;
+}*/
+
+.tree ul li a:hover #treeDivHide{
+  display: block;
+}
+
+.tree ul li a div h5 {
+  /*margin: 0 0 30px 0;*/
+  /*margin: 0 5px;*/
+
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Bitter', serif;
+  font-size: 12px;
+  margin: 5px 0 0 0;
+  border-top: 1px solid #7d7503;
+}
+
+.tree ul li a:hover #positionFont {
+  /*margin: 0 0 30px 0;*/
+  /*margin: 2px 5px 25px;*/
+
+  font-weight: bolder;
+  font-family: 'Bitter', serif;
+  font-size: 8px;
+  color: fff;
+}
+
+
+.tree ul li a div img {
+   margin: 5px 0;
+  /*display: none;*/
+   max-width: 100%;
+   width:50px;
+   border-radius: 50%;
+   border-top: 2px dashed #7d7503;
+   border-bottom: 2px dashed #7d7503;
+   border-left: 2px dashed #7d7503;
+   border-right: 2px dashed #7d7503;
+}
+
+.tree ul li a div img:hover {
+   transform: scale(2.2);
+   border: 0;
+}
+
+
+/*=================== CONTACT US DESIGN =============================*/
+#btnMsg{
+  border-radius: 0px; 
+}
+
+
+.contact .input-group{
+  margin-bottom: 10px;
+}
+
+.contact{
+  margin: 70px 80px 0 0;
+  padding: 60px 80px 60px 0px;
+/*border-top: 40px solid rgba(255, 250, 230, .6);
+border-bottom: 40px solid rgba(255, 250, 230, .6);*/
+border-top: 60px double rgba(44, 170, 226, .6);
+border-right: 1px rgba(44, 170, 226, .6);
+border-bottom: 20px solid rgba(44, 170, 226, .6);
+border-radius: 0 200px 200px 0;
+
+background-color: rgba(21, 116, 157, .10);
+}
+
+#borderContactUs{
+  margin: 0 0 0 -10px;
+  border: 10px double rgba(255, 250, 230, .6);
+  border-radius: 0px 40px 40px 0px;
+
+  /*padding: 30px 60px;*/
+  padding: 30px 0 30px 30px;
+}
+
+.contact h2{
+  text-align: center;
+  font-family: 'Finger Paint', cursive;
+  color: #fff;
+
+  padding: 3px 0;
+  margin: 0;
+}
+
+.contact p{
+   color: #fff;
+}
+#titleContact{
+  text-align: center;
+
+  padding: 0 0 10px;
+   font-size: 12px;
+}
+#titleContact1{
+  text-align: center;
+  margin-bottom: 0px;
+   font-size: 12px;
+}
+.contact .form-control{
+  border-radius: 0 !important; 
+}
+.contact .submitMsg{
+   border-radius: 0px;
+   width: 100%;
+   font-size: 15px;
+   background-color: #74b9ff;
+   color: #fff;
+   font-weight: bold;
+}
+.contact .submitMsg:hover{
+  background-color: #1dd1a1;
+  color:#fff !important;
+}
+
+.formMsg{
+  padding: 25px 20px 5px 20px;
+  margin-bottom: 10px;
+
+  border: 10px dashed rgba(255, 250, 230, .6);
+}
+.formMap{
+  /*padding: 40px;*/
+  padding: 40px 20px 40px 10px;
+
+  text-align: center;
+}
+
+iframe{
+  width: 100%;
+}
+
+#name,#email,#message{
+  /*font-family: 'Finger Paint', cursive;*/
+}
+
+.contact  .btnChangeLocation{
+    border-radius: 0px;
+    background-color: #74b9ff;
+    border: 1px solid  #74b9ff;
+}
+
+#btnSubmitContactUs{
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  color: #333; 
+  background-color: #e6b800;
+  border: 2px solid #e6b800;
+  font-weight: bold;
+  font-family: 'Finger Paint', cursive;
+}
+
+#btnSubmitContactUs:hover{
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: #fff;
+  font-weight: bolder;
+}
+
+#tandangsora{
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  color: #333; 
+  background-color: #e6b800;
+  border: 2px solid #e6b800;
+  font-weight: bold;
+  font-family: 'Finger Paint', cursive;
+}
+
+#tandangsora:hover{
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: #fff;
+  font-weight: bolder;
+}
+
+#quirino{
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  color: #333; 
+  background-color: #e6b800;
+  border: 2px solid #e6b800;
+  font-weight: bold;
+  font-family: 'Finger Paint', cursive;
+}
+
+#quirino:hover{
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: #fff;
+  font-weight: bolder;
+}
+
+/*================= FOOTER DESIGN ================================*/
+.footer{
+  padding: 30px;
+  color: #cccccc;
+  background-color: #222222;
+
+border-top: 10px solid rgba(255, 250, 230, .6);
+border-radius: 40px 40px 0px 0px;
+
+
+}
+
+.footer h4{
+  font-size: 30px;
+}
+
+#footerStayInTouch{
+  padding: 0 0 6px;
+}
+
+.footer p {
+margin-bottom: 0px;
+}
+
+.footer .social {
+  font-size: 20px; 
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.footer input{
+  height: 40px;
+  width: 180px;
+  padding: 5px;
+  border: none; 
+  background-color: #cccccc;
+  color: #000;
+}
+.footer .btn{
+  padding: 10px 5px 7px;
+  margin: 0px 0 0 5px;
+  border-radius: 0px; 
+}
+#divider{
+  /*background-color: #ffffff;*/
+  background-color: #e6b800;
+
+}
+
+.footer .row{
+  font-family: 'Finger Paint', cursive;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer .fa-facebook-f{
+  color: #fff;
+  background-color: rgba(0,0,255);
+}
+
+.footer .fa-instagram{
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+
+}
+
+.footer #socialEnvelope{
+  background-color: #fff;
+  color: #ff0000;
+}
+
+.footer .fa-twitter{
+  background-color: #00acee;
+}
+
+.footer .social{
+  opacity: .9;
+}
+
+.footer .fa-square{
+  color: #e6b800;
+  padding: 0 3px 0 0;
+}
+/*================== PAPERS ===================================*/
+
+#sampleProductBorder{
+  border-top: 5px double rgba(255, 240, 179, .6);
+    border-bottom: 5px double rgba(230, 184, 0, .6);
+    border-left: 1px dotted grey;
+    border-right: 1px dotted grey;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#sampleProductBorder:hover{
+  box-shadow: 0px 0px 10px 5px rgba(251, 238, 35, .6);
+}
+
+#papers{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+
+
+.papers img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.papers p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.papers h2{
+  margin-top: 20px;
+}
+.papers h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.papers h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+}
+
+#btnBackProduct{
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 2px;
+  cursor: pointer;
+
+  color: #333; 
+  background-color: #e6b800;
+  border: 2px solid #e6b800;
+  font-weight: bold;
+  font-family: 'Finger Paint', cursive;
+}
+
+#btnBackProduct:hover{
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: #fff;
+  font-weight: bolder;
+
+   transform: scale(1.1);
+  box-shadow: 0px 0px 10px 5px rgba(251, 238, 35, .6);
+
+}
+
+#titleBorderProduct{
+/*border-top: 20px double #000;
+border-bottom: 20px double #000;
+background-color: rgba(255, 250, 230, 6);*/
+/*border-top: 10px double rgba(255, 250, 230, .6);*/
+border-top: 10px double rgba(255, 240, 179, .6);
+border-bottom: 10px double rgba(230, 184, 0, .6);
+  border-radius: 40px 40px 40px 40px;
+/*color: #cca300;*/
+color: #fff;
+font-weight: bolder;
+  font-family: 'Finger Paint', cursive;
+
+margin: 10px 0 0 0;
+padding: 20px 0;
+}
+
+#temporaryBackground{
+  background-color: #fff;
+
+  padding: 100px 0;
+  margin-bottom: -50px;
+}
+
+#cardBorderProduct{
+border: 10px dashed grey;
+background-color: #333;
+}
+
+.alert {
+border: 5px double grey;
+}
+
+#productMargin{
+  margin: 0 0 100px 0;
+  padding: 40px;
+  border-bottom: 50px solid rgba(230, 184, 0, .8);
+  /*border-top: 15px solid rgba(230, 184, 0, .6);*/
+  border-radius: 0 0 0 0;
+
+}
+
+#titleColorProductQuatation{
+  color: rgba(230, 184, 0);
+}
+
+#paragraphproductQuatationDescription{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+}
+
+/*#productMargin img:hover{
+box-shadow: 0px 0px 10px 5px rgba(251, 238, 35, .6);
+}*/
+
+/*================== Stickers ===================================*/
+#stickers{
+   /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.stickers img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.stickers p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.stickers h2{
+  margin-top: 20px;
+}
+.stickers h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.stickers h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Flyers ===================================*/
+#flyers{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.flyers img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.flyers p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.flyers h2{
+  margin-top: 20px;
+}
+.flyers h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.flyers h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Posters ===================================*/
+#posters{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.posters img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.posters p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.posters h2{
+  margin-top: 20px;
+}
+.posters h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.posters h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Calendars ===================================*/
+#calendars{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.calendars img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.calendars p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.calendars h2{
+  margin-top: 20px;
+}
+.calendars h3{
+  color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.calendars h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Books ===================================*/
+#books{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.books img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.books p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.books h2{
+  margin-top: 20px;
+}
+.books h3{
+  color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.books h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Mugs ===================================*/
+#mugs{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.mugs img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.mugs p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.mugs h2{
+  margin-top: 20px;
+}
+.mugs h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.mugs h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Manuals ===================================*/
+#manuals{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.manuals img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.manuals p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.manuals h2{
+  margin-top: 20px;
+}
+.manuals h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.manuals h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Invitations ===================================*/
+#invitations{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.invitations img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.invitations p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.invitations h2{
+  margin-top: 20px;
+}
+.invitations h3{
+  color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.invitations h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Forms ===================================*/
+#forms{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.forms img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.forms p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.forms h2{
+  margin-top: 20px;
+}
+.forms h3{
+  color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.forms h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+/*================== Brochures ===================================*/
+#brochures{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.brochures img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.brochures p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.brochures h2{
+  margin-top: 20px;
+}
+.brochures h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.brochures h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Booklets ===================================*/
+#booklets{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.booklets img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.booklets p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.booklets h2{
+  margin-top: 20px;
+}
+.booklets h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.booklets h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Receipts ===================================*/
+#receipts{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.receipts img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.receipts p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.receipts h2{
+  margin-top: 20px;
+}
+.receipts h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.receipts h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Calling Cards ===================================*/
+#callingcards{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.callingcards img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.callingcards p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.callingcards h2{
+  margin-top: 20px;
+}
+.callingcards h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.callingcards h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+/*================== Planners ===================================*/
+#planners{
+  /*margin-top: 70px;*/
+  /*padding: 100px;*/
+  padding: 15px 0 50px;
+  background-color: #333;
+}
+.planners img{
+  max-width: 100%;
+  padding: 10px 0px 10px;
+}
+
+.planners p{
+  font-family: 'Manjari', sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.planners h2{
+  margin-top: 20px;
+}
+.planners h3{
+ color: #fff0b3;
+font-family: 'Finger Paint', cursive;
+}
+
+.planners h4{
+  color: #fff0b3;
+  font-family: 'Finger Paint', cursive;
+  font-weight: bolder;
+}
+
+.planners i{
+  font-size: 8px;
+}
+
+#buynow{
+   border-radius: 0px;
+   background-color: #ffb916;
+   border: 1px solid #ffb916;
+
+}
+
+
+/* >>> For 992 screens and above*/
+
+@media only screen and (min-width: 992px){
+
+  /*========== Navbar ==========*/
+
+
+
+  .navbarEcon {
+  background-color: #222222 !important;
+  border-bottom: 10px solid rgba(255, 250, 230, .6);
+border-radius: 0px 0px 40px 40px;
+height: 135px;
+    /*position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;*/
+
+   /* position: fixed;
+    
+    top: 0;
+     right: 0;
+    left: 0;*/
+    
+}
+
+
+}
+
+
+@media only screen and (max-width:1200px) {
+
+  #mainMenu ul li a{
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 15px;
+
+}
+
+#title1 {
+  font-size: 60px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+}
+
+@media only screen and (max-width:992px) {
+
+  #title1 {
+    font-size: 47px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .product h2 {
+    font-size: 50px;
+    margin: 40px 0px 0;
+}
+
+  .team {
+    padding-bottom: 0;
+  }
+
+  .team #treeTeam {
+    display: none;
+  }
+
+  .team #smallTeam {
+    display: block;
+    margin: 40px 0;
+  }
+
+  .team #smallTeam img{
+    max-width: 100%;
+  }
+
+  #ourteamThirdRow h4 {
+    font-size: 16px;
+  }
+
+  #ourteamThirdRow b {
+    font-size: 12px;
+  }
+
+  #ourteamFourthRow h4 {
+    font-size: 16px;
+  }
+
+  #ourteamFourthRow b {
+    font-size: 12px;
+  }
+
+  #ourteamSixthRow h4 {
+    font-size: 16px;
+  }
+
+  #ourteamSixthRow b {
+    font-size: 12px;
+  }
+
+
+  /*>>>>> Contact Us <<<<<*/
+
+  #tandangsora {
+    font-size: 13px;
+  }
+
+  #quirino {
+    font-size: 13px;
+  }
+
+}
+
+@media only screen and (max-width:866px) {
+
+  /*>>>>> Contact Us <<<<<*/
+
+  #tandangsora {
+    font-size: 12px;
+    padding: 8px 5px;
+  }
+
+  #quirino {
+    font-size: 12px;
+    padding: 8px 5px;
+  }
+
+}
+
+
+/* >>> For tablets<<< */
+
+@media only screen and (max-width:800px) {
+  
+  html {
+    width: 100%;
+    padding: 0;
+  }
+
+#mainMenu ul li a{
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 0;
+  
+}
+
+
+
+/*========== Wow & Animated ==========*/
+
+  .wow{visibility: visible !important;-webkit-animation-name: none !important;-o-animation-name: none !important;animation-name: none !important;}
+    .animated{visibility: visible !important;-webkit-animation-name: none !important;-o-animation-name: none !important;animation-name: none !important;}
+
+     /*========== About Us ==========*/
+
+/*#title1{
+  font-size: 60px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}*/
+
+#title2{
+  font-size: 30px;
+  padding: 10px;
+ 
+}
+
+/*========================= OrderLandingPage ===================================*/
+
+.orderlandingpage{
+  margin: 200px 150px 100px;
+  text-align: center;
+  padding: 20px;
+color: #fff;
+
+border-top: 40px solid rgba(44, 170, 226, .6);
+border-bottom: 40px solid rgba(44, 170, 226, .6);
+border-left: 1px solid rgba(44, 170, 226, .6);
+border-right: 1px solid rgba(44, 170, 226, .6);
+border-radius: 40px 40px 40px 40px;
+}
+
+.orderlandingpage h1{
+  font-family: 'Finger Paint', cursive;
+  font-size: 20px;
+}
+
+.orderlandingpage h5{
+  font-size: 10px;
+}
+
+#containerOrderLandingPage{
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+
+.loader {
+   margin: 20px auto;
+  /*border: 16px solid #f3f3f3;*/
+  border-radius: 50%;
+  border-top: 15px solid #ec0c8b;
+  border-right: 15px solid #fcee24;
+  border-bottom: 15px solid #2aabe2;
+  border-left: 15px solid #fff;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+     /*========== Product ==========*/
+
+.product h2{
+ /* padding: 10px;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: 'Finger Paint', cursive;
+     color: #fff;
+     font-weight: bolder;*/
+     font-size: 40px;
+     margin: 40px 0px 0;
+}
+
+.product{
+  padding: 40px 0px;
+  /*background: rgba(254, 231, 244, .10);*/
+  background: rgba(247, 110, 188, .10);
+  margin: 0px 0px;
+
+  /*border-top: 40px solid rgba(51, 204, 51, .6);*/
+  border-top: 60px solid rgba(236, 12, 140, .7);
+  /*border-bottom: 40px solid rgba(51, 204, 51, .6);*/
+  border-bottom: 20px double rgba(236, 12, 140, .7);
+  /*border-top: 40px solid #4CAF50;*/
+  border-radius: 0px 0px 0px 0px;
+}
+
+/*========== Contact Us ==========*/
+
+#tandangsora{
+  padding: 8px 5px;
+  margin: 4px 2px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#quirino{
+  padding: 8px 5px;
+  margin: 4px 2px;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#ourteamThirdRow h4 {
+    font-size: 12px;
+  }
+
+  #ourteamThirdRow b {
+    font-size: 10px;
+  }
+
+  #ourteamFourthRow h4 {
+    font-size: 12px;
+  }
+
+  #ourteamFourthRow b {
+    font-size: 10px;
+  }
+
+  #ourteamSixthRow h4 {
+    font-size: 12px;
+  }
+
+  #ourteamSixthRow b {
+    font-size: 10px;
+  }
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+
+  #productRowContainer .carousel-inner .row div {
+
+  max-width: 80%;
+  margin: auto;
+
+  }
+
+  #ourteamThirdRow h4 {
+    font-size: 16px;
+  }
+
+  #ourteamThirdRow b {
+    font-size: 12px;
+  }
+
+  #ourteamFourthRow h4 {
+    font-size: 16px;
+  }
+
+  #ourteamFourthRow b {
+    font-size: 12px;
+  }
+
+  #ourteamFourthRow {
+    margin: 10px 0;
+    padding: 20px 10px;
+    border-top: 1px solid #ffffb3;
+    border-bottom: 1px solid #ffffb3;
+  }
+
+
+  /*>>>>> Contact Us <<<<<*/
+
+  #borderContactUs {
+    padding: 30px 30px; 
+  }
+
+}
+
+
+
+/* >>> For mobile phones <<< */
+
+
+/*@media only screen and (max-width:500px) {*/
+  @media only screen and (max-width:655px) {
+  
+  html {
+    width: 100%;
+    padding: 0;
+  }
+
+  /*========== Wow & Animated ==========*/
+
+  .wow{visibility: visible !important;-webkit-animation-name: none !important;-o-animation-name: none !important;animation-name: none !important;}
+    .animated{visibility: visible !important;-webkit-animation-name: none !important;-o-animation-name: none !important;animation-name: none !important;}
+
+     
+
+     /*========== About Us ==========*/
+
+#title1{
+  font-size: 40px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+
+}
+
+#title2{
+  font-size: 20px;
+  padding: 10px;
+ 
+}
+
+ /*========== Order Form ==========*/
+
+  #quatation input, #quatation textarea{
+    font-size: 8px;
+  }
+
+  .product h2{
+     margin: 40px 0px 0px;
+     font-size: 25px;
+   }
+
+   #request{
+    font-size: 30px;
+   }
+
+   #offer{
+    font-size: 10px;
+   }
+
+/*========================= OrderLandingPage ===================================*/
+
+.orderlandingpage{
+  margin: 200px 100px 60px;
+  text-align: center;
+  padding: 20px;
+color: #fff;
+
+border-top: 30px solid rgba(44, 170, 226, .6);
+border-bottom: 30px solid rgba(44, 170, 226, .6);
+border-left: 1px solid rgba(44, 170, 226, .6);
+border-right: 1px solid rgba(44, 170, 226, .6);
+border-radius: 30px 30px 30px 30px;
+}
+
+.orderlandingpage h1{
+  font-family: 'Finger Paint', cursive;
+  font-size: 15px;
+}
+
+.orderlandingpage h5{
+  font-size: 8px;
+}
+
+#containerOrderLandingPage{
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+
+.loader {
+   margin: 20px auto;
+  /*border: 16px solid #f3f3f3;*/
+  border-radius: 50%;
+  border-top: 12px solid #ec0c8b;
+  border-right: 12px solid #fcee24;
+  border-bottom: 12px solid #2aabe2;
+  border-left: 12px solid #fff;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+    /*========== Product ==========*/
+
+.product h2{
+ /* padding: 10px;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: 'Finger Paint', cursive;
+     color: #fff;
+     font-weight: bolder;*/
+     margin: 40px 0px 0px;
+     font-size: 40px;
+}
+
+.product{
+  padding: 40px 0px;
+  /*background: rgba(254, 231, 244, .10);*/
+  background: rgba(247, 110, 188, .10);
+  margin: 0px 0px;
+
+  /*border-top: 40px solid rgba(51, 204, 51, .6);*/
+  border-top: 80px solid rgba(236, 12, 140, .7);
+  /*border-bottom: 40px solid rgba(51, 204, 51, .6);*/
+  border-bottom: 80px double rgba(236, 12, 140, .7);
+  /*border-top: 40px solid #4CAF50;*/
+  border-radius: 0px 0px 0px 0px;
+}
+
+/*#titleColorProduct{
+
+  padding: 10px 20px;
+
+  border-left: 18px dotted rgba(170, 9, 100, .8);
+}*/
+
+/* ========== Contact Us ========== */
+
+#btnMsg{
+  border-radius: 0px; 
+}
+
+
+.contact .input-group{
+  margin-bottom: 10px;
+}
+
+.contact{
+  margin: 70px 0 0 0;
+  padding: 60px 30px;
+/*border-top: 40px solid rgba(255, 250, 230, .6);
+border-bottom: 40px solid rgba(255, 250, 230, .6);*/
+border-top: 80px double rgba(44, 170, 226, .6);
+border-bottom: 80px solid rgba(44, 170, 226, .6);
+border-radius: 0 0 0 0;
+
+background-color: rgba(21, 116, 157, .10);
+}
+
+#borderContactUs{
+  margin: 0 0 0 0;
+  border: 10px double rgba(255, 250, 230, .6);
+  border-radius: 0px 0px 0px 0px;
+
+  padding: 30px 30px;
+}
+
+.contact h2{
+  text-align: center;
+  font-family: 'Finger Paint', cursive;
+  color: #fff;
+
+  padding: 3px 0;
+  margin: 0;
+}
+
+.contact p{
+   color: #fff;
+}
+
+
+
+}
+
+
+/* >>> for width: 320 screens pababa <<< */
+
+  @media only screen and (max-width:490px) {
+
+    html {
+    width: 100%;
+    padding: 0;
+  }
+
+  /*========== Order Form ==========*/
+
+  #quatation input, #quatation textarea{
+    font-size: 8px;
+  }
+
+  .product h2{
+     margin: 40px 0px 0px;
+     font-size: 25px;
+   }
+
+   #request{
+    font-size: 30px;
+   }
+
+   #offer{
+    font-size: 10px;
+   }
+
+
+/*========================= OrderLandingPage ===================================*/
+
+.orderlandingpage{
+  margin: 200px 50px 60px;
+  text-align: center;
+  padding: 20px;
+color: #fff;
+
+border-top: 30px solid rgba(44, 170, 226, .6);
+border-bottom: 30px solid rgba(44, 170, 226, .6);
+border-left: 1px solid rgba(44, 170, 226, .6);
+border-right: 1px solid rgba(44, 170, 226, .6);
+border-radius: 30px 30px 30px 30px;
+}
+
+.orderlandingpage h1{
+  font-family: 'Finger Paint', cursive;
+  font-size: 15px;
+}
+
+.orderlandingpage h5{
+  font-size: 8px;
+}
+
+#containerOrderLandingPage{
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+
+.loader {
+   margin: 20px auto;
+  /*border: 16px solid #f3f3f3;*/
+  border-radius: 50%;
+  border-top: 12px solid #ec0c8b;
+  border-right: 12px solid #fcee24;
+  border-bottom: 12px solid #2aabe2;
+  border-left: 12px solid #fff;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+/*========== Contact Us ==========*/
+#btnSubmitContactUs{
+  font-size: 12px;
+}
+
+#name{
+  font-size: 8px;
+}
+
+#email{
+  font-size: 8px;
+}
+
+#message{
+  font-size: 8px;
+}
+
+/*========== footer ==========*/
+.footer h4{
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.footer small{
+  font-size: 70%;
+}
+
+.footer p{
+  font-size: 10px;
+}
+
+#footerStayInTouch{
+  margin: 10px 0;
+}
+
+  #fbmessenger {
+    position: fixed;
+  bottom: 0px;
+  right: 5px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #4080ff;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-top-left-radius: .7em;
+  border-top-right-radius: .7em;
+  font-size: 10px;
+
+    }
+
+  }
